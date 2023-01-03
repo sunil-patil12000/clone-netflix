@@ -1,0 +1,1 @@
+//write funcotion random number in javascript ?
