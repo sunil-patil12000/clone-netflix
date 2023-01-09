@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "../axios";
-import { useScrollContainer } from 'react-indiana-drag-scroll';
+
 
 const img_url ="https://image.tmdb.org/t/p/original/";
 const Row = ({ tital, req,potret }) => {
@@ -17,7 +17,7 @@ const Row = ({ tital, req,potret }) => {
 
   console.log(movie);
 
-  const scrollContainer = useScrollContainer();
+  
 
 
 
