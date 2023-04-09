@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import request from "../config/request";
 import axios from "../axios";
 
-const img_url = "https://image.tmdb.org/t/p/original/";
+
 const Bg = () => {
   const [movie, setMovie] = useState([]);
 
