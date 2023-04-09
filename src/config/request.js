@@ -1,4 +1,11 @@
-const API_KEY ='4208d8f49955b6ffd12ca89155f07ba4'
+
+
+
+
+function request() {
+
+
+    const API_KEY ='4208d8f49955b6ffd12ca89155f07ba4'
 
 const request = {
     fatchNetflixShow:'/discover/tv?api_key=4208d8f49955b6ffd12ca89155f07ba4&with_networks=213',
@@ -10,4 +17,9 @@ const request = {
     fetchScifi:'/discover/movie?api_key=4208d8f49955b6ffd12ca89155f07ba4&with_genres=878',
 }
 
+
+  
+}
+
 export default request;
+
