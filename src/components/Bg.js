@@ -16,6 +16,8 @@ const Bg = () => {
     };
 
     fetchData();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [request.fatchNetflixShow]);
 
   console.log(movie);
